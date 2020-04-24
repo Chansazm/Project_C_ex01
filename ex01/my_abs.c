@@ -4,27 +4,23 @@
 *       The program Reproduces behavior of an abs() function                                      *
 **************************************************************************************************/
 
-int main() 
-
-{
-    int my_abs (int a)
-    {
+int my_abs (int a)
+ {
+    if (a > 0 ) 
+        {
+            return a;
+        }   
         
-        //initialise the variables
-        a = 0;
-        b = 0;
+        else if (a < 0)
 
-        
-
-        //process
-        (unsigned int) b == a ;
-    
+        {
+        return (a * -1);
+        }
 
 
-        //Output
-
-        printf("The absolute value of %d is %d \n", a,b)
-        return (0);
-
-    }
+//    2 -> 2
+//    -1 -> 1
+//    -12 -> 12 
+//      0 -> 0
+    return (0);
 }
