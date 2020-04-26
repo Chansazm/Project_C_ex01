@@ -4,11 +4,7 @@
 int my_isalnum(char a)
 {
  
-    //printf("Enter any Character: ");
-   // scanf("%c", &a);
 
-
-//if character entered is in alphabet return 1
   
    
     {
