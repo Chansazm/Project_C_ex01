@@ -22,7 +22,7 @@ void my_print_numbers()
     
 }
 /*
-int main()
+//int main()
 {
     my_print_numbers();
     
