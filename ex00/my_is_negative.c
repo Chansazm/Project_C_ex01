@@ -4,7 +4,7 @@
 *       The program returns 1 or 0 depending on the integer's sign entered as a parameter         *
 **************************************************************************************************/
 
-//#include <stdio.h>
+#include <stdio.h>
 
 int my_is_negative(int nbr)
 {
@@ -18,7 +18,7 @@ int my_is_negative(int nbr)
     }
 }
 
-/* Tests
+
 int main()
 {
     
@@ -29,5 +29,3 @@ int main()
     printf("My is negative : %d  \n", my_is_negative(-4));
 
 }
-
-*/
